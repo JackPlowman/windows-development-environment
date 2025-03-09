@@ -7,7 +7,7 @@ set shell := ["powershell.exe", "-c"]
 # Install dotfiles
 install-dotfiles:
     xcopy development-environment $HOME /E /I /Y
-    
+
 # ------------------------------------------------------------------------------
 # Prettier
 # ------------------------------------------------------------------------------
