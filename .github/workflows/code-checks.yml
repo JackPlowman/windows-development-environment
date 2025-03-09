@@ -64,7 +64,7 @@ jobs:
       - name: Set up Just
         uses: extractions/setup-just@v2
       - name: Check Justfile Format
-        run: just format-check
+        run: just format-check --shell sh
 
   run-zizmor:
     name: Check GitHub Actions with zizmor
