@@ -8,10 +8,17 @@ set shell := ["powershell.exe", "-c"]
 install-dotfiles:
     xcopy development-environment $HOME /E /I /Y
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> 6b77945 (update)
+=======
+
+clean-dotfiles:
+    rm $HOME/.bashrc
+
+>>>>>>> cd3f832 (update)
 # ------------------------------------------------------------------------------
 # Prettier
 # ------------------------------------------------------------------------------
