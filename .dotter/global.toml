@@ -1,0 +1,16 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+Justfile = ""
+LICENSE = ""
+"README.md" = ""
+docs = ""
+"lefthook.yml" = ""
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
