@@ -9,6 +9,7 @@ LICENSE = ""
 "README.md" = ""
 docs = ""
 "lefthook.yml" = ""
+"oh-my-posh.json" = ""
 
 [default.variables]
 
