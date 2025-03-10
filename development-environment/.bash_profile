@@ -1,3 +1,5 @@
 #!/bin/bash
 
-test -f $HOME/.bashrc && . $HOME/.bashrc
+if [[ -f ~/.bashrc ]]; then
+  source ~/.bashrc
+fi
