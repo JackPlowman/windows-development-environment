@@ -16,7 +16,7 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH='/c/Users/Jackl/.oh-my-bash'
+export OSH="$USER_PATH/.oh-my-bash"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -157,3 +157,15 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+# ------------------------------------------------------------------------#
+# Aliases
+alias reload="source ~/.bashrc"
+alias pretty="prettier . --check --write"
+# Aliases for Development Scripts
+alias commit="bash ~/scripts/commit_and_push.sh"
+alias update="bash ~/scripts/update_and_push.sh"
+alias branch_cleanup="bash ~/scripts/remove_all_branches_except_default.sh"
+alias rebase="bash ~/scripts/rebase_and_push.sh"
+alias main="bash ~/scripts/checkout_main_and_pull.sh"
+alias master="bash ~/scripts/checkout_master_and_pull.sh"
+alias project="bash ~/scripts/project_switch.sh"
