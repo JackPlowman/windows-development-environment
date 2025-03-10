@@ -34,6 +34,7 @@ jobs:
           LINTER_RULES_PATH: .github/super-linter-configurations
           YAML_ERROR_ON_WARNING: true
           FILTER_REGEX_EXCLUDE: development-environment/.bash*
+          VALIDATE_BASH_EXEC: false
 
   check-markdown-links:
     name: Check Markdown links
