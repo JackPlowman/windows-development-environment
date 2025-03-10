@@ -8,6 +8,9 @@ set shell := ["powershell.exe", "-c"]
 install-dotfiles:
     xcopy development-environment $HOME /E /I /Y
 
+clean-dotfiles:
+    rm $HOME/.bashrc $HOME/.bash_profile
+
 # ------------------------------------------------------------------------------
 # Prettier
 # ------------------------------------------------------------------------------
