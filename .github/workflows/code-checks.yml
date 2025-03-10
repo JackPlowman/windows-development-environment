@@ -33,6 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: .github/super-linter-configurations
           YAML_ERROR_ON_WARNING: true
+          FILTER_REGEX_EXCLUDE: development-environment/.bashrc
 
   check-markdown-links:
     name: Check Markdown links
@@ -64,7 +65,7 @@ jobs:
       - name: Set up Just
         uses: extractions/setup-just@v2
       - name: Check Justfile Format
-        run: just format-check
+        run: just --shell sh format-check
 
   run-zizmor:
     name: Check GitHub Actions with zizmor
