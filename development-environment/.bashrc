@@ -169,3 +169,5 @@ alias rebase="bash ~/scripts/rebase_and_push.sh"
 alias main="bash ~/scripts/checkout_main_and_pull.sh"
 alias master="bash ~/scripts/checkout_master_and_pull.sh"
 alias project="bash ~/scripts/project_switch.sh"
+# eval "$(oh-my-posh init bash --config '/c/Users/Jackl/oh-my-posh.json')"
+

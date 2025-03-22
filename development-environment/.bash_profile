@@ -1,5 +1,7 @@
 #!/bin/bash
 
-if [[ -f ~/.bashrc ]]; then
-  source ~/.bashrc
+if [ -f ~/.bashrc ]
+then
+    . ~/.bashrc
 fi
+eval "$(oh-my-posh init bash)"
