@@ -35,6 +35,7 @@ jobs:
           YAML_ERROR_ON_WARNING: true
           FILTER_REGEX_EXCLUDE: development-environment/.bash*
           VALIDATE_BASH_EXEC: false
+          EDITORCONFIG_FILE_NAME: .editorconfig-checker.json
 
   check-markdown-links:
     name: Check Markdown links
