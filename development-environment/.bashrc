@@ -20,7 +20,7 @@ export OSH="$USER_PATH/.oh-my-bash"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="font"
+OSH_THEME="agnoster"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
@@ -169,5 +169,6 @@ alias rebase="bash ~/scripts/rebase_and_push.sh"
 alias main="bash ~/scripts/checkout_main_and_pull.sh"
 alias master="bash ~/scripts/checkout_master_and_pull.sh"
 alias project="bash ~/scripts/project_switch.sh"
-eval "$(oh-my-posh init bash --config '/c/Users/Jackl/oh-my-posh.json')"
 
+# ------------------------------------------------------------------------#
+# Tools
