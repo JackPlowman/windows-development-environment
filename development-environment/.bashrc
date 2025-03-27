@@ -20,7 +20,7 @@ export OSH="$USER_PATH/.oh-my-bash"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="agnoster"
+# OSH_THEME="agnoster"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
@@ -172,3 +172,5 @@ alias project="bash ~/scripts/project_switch.sh"
 
 # ------------------------------------------------------------------------#
 # Tools
+
+eval "$(oh-my-posh init bash --config ~/.poshthemes/jandedobbeleer.omp.json)"
