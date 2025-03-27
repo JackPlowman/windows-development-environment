@@ -173,4 +173,4 @@ alias project="bash ~/scripts/project_switch.sh"
 # ------------------------------------------------------------------------#
 # Tools
 
-eval "$(oh-my-posh init bash --config ~/.poshthemes/jandedobbeleer.omp.json)"
+eval "$(oh-my-posh init bash --config ~/oh-my-posh.json)"
