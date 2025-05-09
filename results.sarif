@@ -1,0 +1,967 @@
+{
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\clean-caches.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "clean-caches"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\clean-caches.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 17
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "check-code-quality"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 23,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 23
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "check-markdown-links"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 45
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "check-justfile-format"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 64,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 64
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "run-zizmor"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 80,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 80
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "run-zizmor"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 4
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 57,
+                  "endLine": 93,
+                  "snippet": {
+                    "text": "        uses: github/codeql-action/upload-sarif@v3.28.17"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 93
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "lefthook-validate"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 103,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 103
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "run-codeql-analysis"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 121,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 121
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "run-codeql-analysis"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 1
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 49,
+                  "endLine": 126,
+                  "snippet": {
+                    "text": "        uses: github/codeql-action/init@v3.28.17"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 126
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\code-checks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "run-codeql-analysis"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 2
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\code-checks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 52,
+                  "endLine": 131,
+                  "snippet": {
+                    "text": "        uses: github/codeql-action/analyze@v3.28.17"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 131
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\pull-request-tasks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "labeller"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\pull-request-tasks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 37,
+                  "endLine": 18,
+                  "snippet": {
+                    "text": "        uses: actions/labeler@v5.0.0"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 18
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\pull-request-tasks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "dependency-review"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\pull-request-tasks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 45,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 45
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\pull-request-tasks.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "dependency-review"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 1
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\pull-request-tasks.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 54,
+                  "endLine": 50,
+                  "snippet": {
+                    "text": "        uses: actions/dependency-review-action@v4.6.0"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 50
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        },
+        {
+          "kind": "fail",
+          "level": "warning",
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "properties": {
+                    "symbolic": {
+                      "annotation": "action is not pinned to a hash ref",
+                      "key": {
+                        "Local": {
+                          "given_path": ".\\.github/workflows\\sync-labels.yml",
+                          "prefix": "."
+                        }
+                      },
+                      "primary": true,
+                      "route": {
+                        "components": [
+                          {
+                            "Key": "jobs"
+                          },
+                          {
+                            "Key": "configure-labels"
+                          },
+                          {
+                            "Key": "steps"
+                          },
+                          {
+                            "Index": 0
+                          },
+                          {
+                            "Key": "uses"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "message": {
+                "text": "action is not pinned to a hash ref"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": ".github/workflows\\sync-labels.yml",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "endColumn": 38,
+                  "endLine": 21,
+                  "snippet": {
+                    "text": "        uses: actions/checkout@v4.2.2"
+                  },
+                  "sourceLanguage": "yaml",
+                  "startColumn": 9,
+                  "startLine": 21
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "action is not pinned to a hash ref"
+          },
+          "relatedLocations": [],
+          "ruleId": "unpinned-uses"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "downloadUri": "https://github.com/woodruffw/zizmor",
+          "informationUri": "https://github.com/woodruffw/zizmor",
+          "name": "zizmor",
+          "rules": [
+            {
+              "help": {
+                "markdown": "`unpinned-uses`: unpinned action reference\n\nDocs: <https://woodruffw.github.io/zizmor/audits/#unpinned-uses>",
+                "text": "unpinned action reference"
+              },
+              "helpUri": "https://woodruffw.github.io/zizmor/audits/#unpinned-uses",
+              "id": "unpinned-uses"
+            }
+          ],
+          "semanticVersion": "1.4.1",
+          "version": "1.4.1"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

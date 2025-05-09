@@ -59,7 +59,7 @@ lefthook-validate:
 zizmor-check:
     uvx zizmor . --persona=pedantic
 
-# Run zizmor checking with sarif output
+# Run zizmor checking with sarif output, must be run in bash shell
 zizmor-check-sarif:
     uvx zizmor . --persona=pedantic --format sarif > results.sarif
 

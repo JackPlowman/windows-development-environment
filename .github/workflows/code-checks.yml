@@ -86,7 +86,7 @@ jobs:
       - name: Set up Just
         uses: extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff # v3
       - name: Run zizmor 🌈
-        run: just zizmor-check-sarif
+        run: just --shell bash zizmor-check-sarif
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload SARIF file
