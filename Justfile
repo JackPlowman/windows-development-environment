@@ -1,5 +1,3 @@
-set shell := ["powershell.exe", "-c"]
-
 # ------------------------------------------------------------------------------
 # Dotfiles
 # ------------------------------------------------------------------------------
@@ -61,7 +59,7 @@ zizmor-check:
 
 # Run zizmor checking with sarif output, must be run in bash shell
 zizmor-check-sarif:
-    uvx zizmor . --persona=pedantic --format sarif > results.sarif
+  uvx zizmor . --persona=pedantic --format sarif > results.sarif
 
 # ------------------------------------------------------------------------------
 # Pinact
