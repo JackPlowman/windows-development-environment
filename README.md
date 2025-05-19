@@ -1,8 +1,8 @@
-# Repository Name
+# Windows Development Environment
 
 ## Table of Contents
 
-- [Repository Name](#repository-name)
+- [Windows Development Environment](#windows-development-environment)
   - [Table of Contents](#table-of-contents)
   - [Contributing](#contributing)
 
