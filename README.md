@@ -1,5 +1,7 @@
 # Windows Development Environment
 
+My dotfiles for Windows. As well as scripts, aliases, and other tools to make my life easier.
+
 ## Table of Contents
 
 - [Windows Development Environment](#windows-development-environment)
