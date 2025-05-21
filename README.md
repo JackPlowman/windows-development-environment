@@ -2,6 +2,8 @@
 
 My dotfiles for Windows. As well as scripts, aliases, and other tools to make my life easier.
 
+![Maintenance](https://img.shields.io/badge/Maintenance-8A2BE2?style=for-the-badge&color=19e650&label=Status)
+
 ## Table of Contents
 
 - [Windows Development Environment](#windows-development-environment)
