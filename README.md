@@ -8,8 +8,19 @@ My dotfiles for Windows. As well as scripts, aliases, and other tools to make my
 
 - [Windows Development Environment](#windows-development-environment)
   - [Table of Contents](#table-of-contents)
+  - [Project Structure](#project-structure)
   - [Contributing](#contributing)
   - [License](#license)
+
+## Project Structure
+
+```plaintext
+development-environment - directory gets copied to the home directory
+  scripts/ - aliased scripts
+  .bashrc - bash configuration
+  .bash_profile - bash profile
+  oh-my-posh.json - oh-my-posh configuration
+```
 
 ## Contributing
 
