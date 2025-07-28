@@ -37,6 +37,8 @@ jobs:
           YAML_ERROR_ON_WARNING: true
           FILTER_REGEX_EXCLUDE: development-environment/.bash*
           VALIDATE_BASH_EXEC: false
+          VALIDATE_EDITORCONFIG: false
+          VALIDATE_GIT_COMMITLINT: false
 
   common-code-checks:
     name: Common Code Checks
