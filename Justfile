@@ -85,6 +85,7 @@ pinact-update:
 # EditorConfig
 # ------------------------------------------------------------------------------
 
+# Check files format with EditorConfig
 editorconfig-check:
     editorconfig-checker
 
