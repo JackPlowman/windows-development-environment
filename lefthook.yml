@@ -22,5 +22,5 @@ pre-commit:
       run: just pinact-check
     Actionlint Checks:
       run: just actionlint-check
-    EditorConfig Checks:
+    EditorConfig Check:
       run: just editorconfig-check
