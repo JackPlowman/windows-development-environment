@@ -59,7 +59,7 @@ development-environment/        # Directory to copy to your home directory
   # or
   source ~/development-environment/.bash_profile
   ```
-- Use the scripts in `~/development-environment/scripts/` for common git operations and workflow automation.
+- Use the scripts in `~/development-environment/scripts/` for common Git operations and workflow automation.
 - Customize your prompt with [oh-my-posh](https://ohmyposh.dev/):
   ```sh
   oh-my-posh --init --shell bash --config ~/development-environment/oh-my-posh.json
