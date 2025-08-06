@@ -26,14 +26,14 @@ This repository contains my personal Windows dotfiles, shell scripts, and config
 
 - Pre-configured shell environment with aliases and functions
 - Customizable prompt with [oh-my-posh](https://ohmyposh.dev/)
-- Handy scripts for common git and development tasks
+- Handy scripts for common Git and development tasks
 - Easy setup and portability
 
 ## Project Structure
 
 ```plaintext
-development-environment/         # Directory to copy to your home directory
-  scripts/                      # Aliased scripts for git and shell tasks
+development-environment/        # Directory to copy to your home directory
+  scripts/                      # Aliased scripts for Git and shell tasks
   .bashrc                       # Bash configuration
   .bash_profile                 # Bash profile
   oh-my-posh.json               # oh-my-posh prompt configuration
