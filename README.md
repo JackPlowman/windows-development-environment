@@ -10,7 +10,7 @@ My dotfiles for Windows. As well as scripts, aliases, and other tools to make my
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [Contributing](#contributing)
-  - [License](#license)
+  - [Licence](#licence)
 
 ## Project Structure
 
@@ -26,6 +26,6 @@ development-environment - directory gets copied to the home directory
 
 We welcome contributions to the project. Please read the [Contributing Guidelines](docs/CONTRIBUTING.md) for more information.
 
-## License
+## Licence
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT Licence. See the [LICENCE](LICENCE) file for details.
