@@ -169,7 +169,7 @@ alias rebase="bash ~/scripts/rebase_and_push.sh"
 alias main="bash ~/scripts/checkout_main_and_pull.sh"
 alias master="bash ~/scripts/checkout_master_and_pull.sh"
 alias project="bash ~/scripts/project_switch.sh"
-
+alias box="bash ~/scripts/box.sh"
 # ------------------------------------------------------------------------#
 # Tools
 
