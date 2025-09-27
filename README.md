@@ -2,7 +2,7 @@
 
 ![Maintenance](https://img.shields.io/badge/Maintenance-8A2BE2?style=for-the-badge&color=19e650&label=Status)
 
-> **A curated set of dotfiles, scripts, and tools to supercharge your Windows development workflow.**
+> **A curated set of dotfiles, scripts, and tools to supercharge my Windows development workflow.**
 
 ---
 
@@ -42,25 +42,32 @@ development-environment/        # Directory to copy to your home directory
 ## Setup
 
 1. **Clone this repository:**
+
    ```sh
    git clone https://github.com/JackPlowman/windows-development-environment.git
    ```
-2. **Copy the `development-environment` directory to your home directory:**
+
+2. **(Optional) Review and update `.bashrc`, `.bash_profile`, and `oh-my-posh.json` as needed.**
+
+3. **Copy the `development-environment` directory to your home directory:**
+
    ```sh
    cp -r development-environment ~/
    ```
-3. **(Optional) Review and update `.bashrc`, `.bash_profile`, and `oh-my-posh.json` as needed.**
 
 ## Usage
 
 - Source the `.bashrc` or `.bash_profile` in your terminal to enable aliases and functions:
+
   ```sh
   source ~/development-environment/.bashrc
   # or
   source ~/development-environment/.bash_profile
   ```
+
 - Use the scripts in `~/development-environment/scripts/` for common Git operations and workflow automation.
 - Customize your prompt with [oh-my-posh](https://ohmyposh.dev/):
+
   ```sh
   oh-my-posh --init --shell bash --config ~/development-environment/oh-my-posh.json
   ```
