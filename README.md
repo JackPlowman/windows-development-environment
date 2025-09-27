@@ -55,7 +55,6 @@ development-environment/        # Directory to copy to your home directory
    cp -r development-environment ~/
    ```
 
-
 ## Usage
 
 - Source the `.bashrc` or `.bash_profile` in your terminal to enable aliases and functions:
