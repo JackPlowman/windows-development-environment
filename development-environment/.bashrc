@@ -42,9 +42,6 @@ plugins=(
 source "$OSH"/oh-my-bash.sh
 
 # ------------------------------------------------------------------------#
-# Aliases
-alias reload="source ~/.bashrc"
-alias pretty="prettier . --check --write"
 # Aliases for Development Scripts
 alias commit="bash ~/scripts/commit_and_push.sh"
 alias update="bash ~/scripts/update_and_push.sh"
@@ -57,4 +54,11 @@ alias box="bash ~/scripts/box.sh"
 # ------------------------------------------------------------------------#
 # Tools
 
+eval "$(zoxide init bash)"
 eval "$(oh-my-posh init bash --config ~/oh-my-posh.json)"
+
+# ------------------------------------------------------------------------#
+# Command Aliases
+alias reload="source ~/.bashrc"
+alias pretty="prettier . --check --write"
+alias cd=z
