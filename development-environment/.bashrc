@@ -42,6 +42,10 @@ plugins=(
 source "$OSH"/oh-my-bash.sh
 
 # ------------------------------------------------------------------------#
+# Environment settings
+export _ZO_DOCTOR=0
+
+# ------------------------------------------------------------------------#
 # Aliases for Development Scripts
 alias commit="bash ~/scripts/commit_and_push.sh"
 alias update="bash ~/scripts/update_and_push.sh"
