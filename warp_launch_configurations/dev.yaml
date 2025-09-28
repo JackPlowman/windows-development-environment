@@ -8,7 +8,7 @@
 # More on how to do so here:
 # https://docs.warp.dev/features/sessions/launch-configurations
 #
-# All launch configurations are stored under C:\Users\Jackl\AppData\Roaming\warp\Warp\data\launch_configurations.
+# All launch configurations are stored under %APPDATA%\warp\Warp\data\launch_configurations (Windows) or <USER_HOME>/AppData/Roaming/warp/Warp/data/launch_configurations (cross-platform).
 # Edit them anytime!
 #
 # You can also add commands that run on-start for your launch configurations like so:
